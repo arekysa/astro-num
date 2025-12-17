@@ -68,7 +68,7 @@ def kepler(M, e, tacnost = 1e-8):
     return E, br
 
 
-M = np.linspace(0, 2*np.pi, 10) # niz od 1000elem
+M = np.linspace(0, 2*np.pi, 100) # niz od 100elem
 e = np.array([0.05, 0.2, 0.5]) # niz ekscentriciteta
 
 E, br = kepler(M, e)
