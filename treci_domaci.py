@@ -1,5 +1,5 @@
 # koristeci topografija.dat koji ima ekvidistantne log i lat
-# zadatak - odrediti nadmorsku visinu za proizvoljnu long i lat na Marsu koristeci interpolacioni polinom
+# zadatak - odrediti nadmorsku visinu za proizvoljnu longitudu na Marsu koristeci interpolacioni polinom
 
 import numpy as np
 import math
@@ -73,7 +73,7 @@ def stirling(x, y, x0, red):
         P = P + q_neparno/math.factorial(2*i-1)*sredisnje[2*i-2]
         P = P + q_parno/math.factorial(2*i)*sredisnje[2*i-1]
 
-    return P # preuredjen kod da nam samo vraca samo polinom a ne i cvorove
+    return P # preuredjen kod da nam samo vraca polinom a ne i cvorove
 
 
 
