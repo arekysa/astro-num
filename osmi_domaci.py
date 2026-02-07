@@ -28,7 +28,7 @@ y = [0]
 vx = [0.3]
 vy = [0.4]
 
-iter = int(t/dt)
+iter = int(t/dt) # broj iteracija za for
 
 
 def ubrzanje(x, y):
@@ -79,3 +79,4 @@ plt.ylabel('vy')
 plt.tight_layout()
 
 plt.show()
+
