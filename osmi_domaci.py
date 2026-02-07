@@ -36,7 +36,7 @@ def ubrzanje(x, y):
   ay = -y - x**2 + y**2
   return ax, ay
 
-# leapforg algo
+# leapforg algo, samo primena formule sa casa gde naizmenicno azuriramo ubrzanje i brzinu
 for i in range(iter):
   ax, ay = ubrzanje(x[i], y[i])
 
@@ -77,4 +77,5 @@ plt.xlabel('y')
 plt.ylabel('vy')
 
 plt.tight_layout()
+
 plt.show()
